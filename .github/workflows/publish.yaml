@@ -16,5 +16,5 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_STREAK_COUNTER }}
-          package: ./streak-counter/package.json
+          package: package.json
           access: public
