@@ -11,10 +11,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '16'
-      - run: npm i -g pnpm
-      - run: pnpm install
-      - run: pnpm test
-      - run: pnpm build
+      - run: npm install
+      - run: npm test
+      - run: npm build
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_STREAK_COUNTER }}
