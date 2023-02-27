@@ -1,0 +1,36 @@
+{
+  "name": "@jquince/streak-counter",
+  "version": "1.0.0",
+  "description": "A web based library for the duolingo streak feature",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "streak-counter"
+  ],
+  "author": "Joz-Bruer Quince",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.0",
+    "jsdom": "^21.1.0",
+    "microbundle": "^0.15.1",
+    "vite": "^4.1.4",
+    "vitest": "^0.29.1"
+  }
+}
