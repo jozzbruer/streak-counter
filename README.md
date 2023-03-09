@@ -5,11 +5,11 @@ This is a streak counter - Inspired by Duolingo- But for browser and use `localS
 ## Install
 
 ```shell
- npm @jquince/streak-counter
+ npm install @jquince/streak-counter
 ```
 
 ```shell
- yarn @jquince/streak-counter
+ yarn add @jquince/streak-counter
 ```
 
 ### Usage
